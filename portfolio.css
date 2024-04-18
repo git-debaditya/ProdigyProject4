@@ -8,6 +8,10 @@ body {
   color: ghostwhite;
   overflow-x: hidden;
 }
+
+.left li {
+  font-size: 1rem;
+}
 .left div {
   display: flex;
   align-items: center;
