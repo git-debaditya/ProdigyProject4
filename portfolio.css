@@ -179,6 +179,10 @@ main hr {
 .project-container::-webkit-scrollbar-thumb {
   background-color: ghostwhite;
 }
+.project-container a {
+  text-decoration: none;
+  color: ghostwhite;
+}
 
 .project {
   max-height: 50vh;
