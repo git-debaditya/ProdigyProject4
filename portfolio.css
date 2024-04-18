@@ -9,18 +9,13 @@ body {
   overflow-x: hidden;
 }
 
-.left li {
-  font-size: 1rem;
-}
 .left div {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
 }
-#cv {
-  font-size: 1.5rem;
-}
+
 .mid {
   display: flex;
   justify-content: center;
