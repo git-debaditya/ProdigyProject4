@@ -9,6 +9,17 @@ body {
   overflow-x: hidden;
 }
 
+.hamburger {
+  display: none;
+}
+.hamburger-box {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+}
+.hamburger-box .fa-bars {
+  font-size: 25px;
+}
 .left div {
   display: flex;
   align-items: center;
@@ -214,15 +225,15 @@ main hr {
 .project-img {
   display: inline-flex;
   height: 40vh;
-  width: auto;
+  max-width: 100%;
   object-fit: contain;
   border: 5px double cyan;
 }
 
 footer {
-  margin-top: 100px;
+  margin: 100px 0 0 0;
   bottom: 0;
-  width: 100%;
+  width: 105%;
   background-color: rgb(80, 44, 39);
   height: fit-content;
 }
@@ -241,7 +252,8 @@ footer a {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  margin: 10px
+  margin: 10px;
+  max-width: 100%;
 }
 .footer-container>div {
   margin: 10px 50px 10px 10px;
@@ -306,3 +318,15 @@ footer a {
   justify-content: center;
 }
 
+@media (max-width: 768px) {
+  nav .left,
+  nav .right {
+    display: none;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+
+}

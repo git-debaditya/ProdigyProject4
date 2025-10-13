@@ -16,7 +16,10 @@
   <header>
     
     <nav>
-      
+      <input type="checkbox" class="hamburger" id="hamburger">
+      <label for="hamburger" class="hamburger-box">
+        <i class="fa fa-info-circle"></i>
+      </label>
       <div class="left">
         <ul>
           <li>
@@ -58,6 +61,10 @@
             <a href="#proj"> Projects</a></li>
         </ul>
       </div>
+      <input type="checkbox" class="hamburger" id="hamburger">
+      <label for="hamburger" class="hamburger-box">
+        <i class="fa fa-bars"></i>
+    </label>
 
     </nav>
 
@@ -153,9 +160,23 @@
     <hr>
 
     <section class="projects" id="proj">
-      <span class="intro">Thinhs I have done so far...</span>
+      <span class="intro">Things I have done so far...</span>
       <h1>Projects</h1>
       <div class="project-container">
+
+        <div class="project" id="project0">
+          <div class="project-img">
+            <img src="./System Flow.jpg" alt="System Flow">
+          </div>
+
+          <div class="project-desc">
+            <h2><a href="https://github.com/git-debaditya/selection-algo-viz"><i class="fa-solid fa-laptop-code" style="margin-right: 5px;"></i><u>Algorithm Visualizer</u></a></h2>
+            <p style="font-size: 1.25rem;">
+              The application offers an interactive visualization of QuickSelect, Median of Medians, and Heap-based selection algorithms, allowing users to input or generate arrays and explore how each algorithm identifies the k-th smallest or largest element. Through color-coded animations, stepwise execution, and adjustable playback, users can observe pivot selection, partitioning, and heap operations in real time. Designed as a pedagogical tool, it bridges theoretical algorithmic concepts with visual intuition, fostering active learning and deeper comprehension of efficiency, recursion, and selection logic in algorithm design and analysis.
+            </p>
+          </div>
+          
+        </div>
 
         <div class="project" id="project1">
 
